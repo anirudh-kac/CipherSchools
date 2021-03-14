@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(20deg, #ffcb91, #ffefa1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* login page */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #94ebcd9f;
+    color: black;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.loginForm {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.loginTitle {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.loginTitle h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+input[type="email"],
+input[type="password"] {
+    font-family: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    height: 1.3rem;
+    padding-left: 0.5rem;
+    color: black;
+    transition: background 0.5s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+}
+
+button[type="submit"] {
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 20px;
+    outline: none;
+    background: rgba(1, 1, 1);
+    font-family: inherit;
+    letter-spacing: 1px;
+    color: white;
+    transition: background 0.5s, color 0.5s;
+}
+
+button[type="submit"]:hover {
+    background: #303030;
+}
+
+.button-submit {
+    display: inherit;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+label p {
+    margin-bottom: 5px;
+}
+
+.button-submit a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* home page */
+
+header{
+    height: 95vh;
+    font-family: "Inter", sans-serif;
+}
+
+nav{
+    height: 5vh;
+    padding: 0 25rem 0 2rem;
+}
+
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    padding-right:1rem;
+    text-decoration: none;
+    color:#1a7268;
+}
+
+.title-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 95vh;
+    background-color: #94ebcd;
+}
+
+.head-image{
+    width:100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.title{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#9058a1;
+}
+
+section {
+    padding: 2rem 0;
+    margin: 0;
+}
+
+
+section > h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.hobbies-title{
+    color : #34d4c2;
+    text-align: center;
+}
+
+.hobby-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hobby{
+    align-self: center;
+    text-align: center;
+}
+
+.hobby i{
+    font-size: 250%;
+    color:#6ddccf
+}
+
+.hobby h3{
+    color:rgb(11, 103, 139);
+}
+
+
+.interests{
+    background-color: #94ebcd;
+}
+
+
+.interest ul {
+    text-align: left;
+    padding-left: 2rem;
+}
+.interests h1{
+    text-align: center;
+    color:#ad6c22;
+}
+
+.interests-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.interest{
+    align-self: center;
+    text-align: center;
+}
+
+.interest i{
+    font-size: 250%;
+    color:#ffcb91;
+}
+
+.interest h3{
+    color:rgb(11, 103, 139);
+}
+
+.personal{
+    background-color: #ffcb91;
+}
+
+.personal-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.personal h1{
+    color: #34d4c2;
+}
+
+.personal-wrapper i {
+    font-size: 400%;
+    text-align: center;
+    color: #34d4c2;
+}
+
+.personal-wrapper p{
+
+}
+.professional{
+    background-color: #6ddccf;
+}
+
+.professional-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.professional h1{
+    color: #ad6c22;
+}
+
+.professional i {
+    font-size: 400%;
+    text-align: center;
+    color: #ffcb91;
+}
+
+.professional p{
+    
+}
